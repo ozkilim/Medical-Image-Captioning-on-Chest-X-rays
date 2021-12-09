@@ -1,0 +1,8 @@
+/*.cmake
+/*.DS_Store
+/.user
+/build
+/NLMCXR_png
+ecgen-radiology/
+glove.6B.300d.txt
+glove.6B.zip
