@@ -12,8 +12,10 @@ Specifically this study will compare two models. The first will contain an encod
 ## Setup and running:
 
   #### Data preprocessing: `EDA_Medical_Report.ipynb`
+    - Data loading 
+    - Data visualisation
   #### Encoder decoder model: `Simple_Encoder_Decoder.h5`
-    - Data sampling
+    - Data sampling and split into `test.pkl` and `train.pkl`
     - Model definition
     - Training
     - Evaluation
@@ -23,14 +25,14 @@ Specifically this study will compare two models. The first will contain an encod
     - Evaluation
 
 Citations:
-
+`
 -Ben Abacha, Asma. 2017. “NLM at ImageCLEF 2017 Caption Task.”
 
-_Chempolil, Ashish Thomas. 2021. “Medical Image Captioning on Chest X-Rays.” Medical Image Captioning on Chest X-Rays. https://ashishthomaschempolil.medium.com/.
+_Chempolil, Ashish Thomas. 2021. “Medical Image Captioning on Chest X-Rays.” Medical Image Captioning on Chest X-Rays.
 
 -“GloVe: Global Vectors for Word Representation.” 2014. 1.
 
--Hochreiter, Sepp, and Jurgen Schmidhuber. 1997. “LONG SHORT-TERM MEMORY.”
+-Hochreiter, Sepp, and Juurgen Schmidhuber. 1997. “LONG SHORT-TERM MEMORY.”
 
 -Karpathy, Andrej, and Li Fei-Fei. 2015. “Deep Visual-Semantic Alignments for Generating Image Descriptions.”
 
@@ -45,3 +47,4 @@ _Chempolil, Ashish Thomas. 2021. “Medical Image Captioning on Chest X-Rays.”
 -Tang, Quan, and Yu Zhang. 2020. “Attention-guided Chained Context Aggregation for Semantic Segmentation.” 1.
 
 -Vinyals, Oriol, and Alexander Toshev. 2015. “Show and Tell: A Neural Image Caption Generator.”
+`
