@@ -29,7 +29,7 @@ Attention mechanism:
 | Evaluation method | bleu1 | bleu2  | bleu3 | bleu4 |
 | ------------- | ------------- | ------------- | ------------- | ----------- |
 | Greedy search  | 0.26455 | 0.16700  | 0.106902 | 0.058529 |
-`no Beam search due to timeouts`
+`no Beam search due to timeouts` | - | -  | -| - |
 
 
 
