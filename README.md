@@ -9,7 +9,8 @@ This project will loosely follow the article Medical Image Captioning on Chest X
 
 Specifically this study will compare two models. The first will contain an encoder decoder recurrent neural network that will be initialized with pre trained weights.  The second will be a global attention model. The goal of the project will be to evaluate  both models and observe the advantages of the global attention network for a medical image tagging task.
 
-- Setup and running:
+- <mark>Setup and running:</mark>
+
   - Data preprocessing: EDA_Medical_Report.ipynb
   - Encoder decoder model: Simple_Encoder_Decoder.h5
     - Data sampling
@@ -23,3 +24,27 @@ Specifically this study will compare two models. The first will contain an encod
 ```
 python3 
 ```
+
+Citations:
+
+-Ben Abacha, Asma. 2017. “NLM at ImageCLEF 2017 Caption Task.”
+
+_Chempolil, Ashish Thomas. 2021. “Medical Image Captioning on Chest X-Rays.” Medical Image Captioning on Chest X-Rays. https://ashishthomaschempolil.medium.com/.
+
+-“GloVe: Global Vectors for Word Representation.” 2014. 1.
+
+-Hochreiter, Sepp, and Jurgen Schmidhuber. 1997. “LONG SHORT-TERM MEMORY.”
+
+-Karpathy, Andrej, and Li Fei-Fei. 2015. “Deep Visual-Semantic Alignments for Generating Image Descriptions.”
+
+-Kingma, Diederik P, and Jimmy Lei Ba. 2015. “ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION.”
+
+-Papineni, Kishore, and Wei-Jing Zhu. 2002. “BLEU: a Method for Automatic Evaluation of Machine Translation.” Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL), Philadelphia, July 2002, pp. 311-318.
+
+-Rajpurkar, Pranav. 2017. “CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning.”
+
+-Reddy, Raj. 2001. “Spoken language processing: A guide to theory, algorithm, and system development.”
+
+-Tang, Quan, and Yu Zhang. 2020. “Attention-guided Chained Context Aggregation for Semantic Segmentation.” 1.
+
+-Vinyals, Oriol, and Alexander Toshev. 2015. “Show and Tell: A Neural Image Caption Generator.”
