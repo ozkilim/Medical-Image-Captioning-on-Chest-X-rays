@@ -9,6 +9,8 @@ This project will loosely follow the article Medical Image Captioning on Chest X
 
 Specifically this study will compare two models. The first will contain an encoder decoder recurrent neural network that will be initialized with pre trained weights.  The second will be a global attention model. The goal of the project will be to evaluate  both models and observe the advantages of the global attention network for a medical image tagging task.
 
-'''
-Running status
-'''
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
