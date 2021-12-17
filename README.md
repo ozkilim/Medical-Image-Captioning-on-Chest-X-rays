@@ -33,14 +33,12 @@ Attention mechanism:
 `no Beam search due to timeouts` 
 
 
-
-
 ## Setup and running:
 
   #### Data preprocessing: `EDA_Medical_Report.ipynb`
     - Data loading 
     - Data visualisation
-  #### Encoder decoder model: `Simple_Encoder_Decoder.h5`
+  #### Encoder decoder model: `baseline.ipynb`
     - Data sampling and split into `test.pkl` and `train.pkl`
     - Model definition
     - Training
